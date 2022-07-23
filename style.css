@@ -1,5 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 1rem 0.8rem;
+  width: 40vw;
+  border-radius: 8px;
+  background-color: #003865;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.heading {
+  text-align: center;
+  padding: 1.4rem;
+}
+.discription {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+.input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.input label {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+.input input {
+  font-size: 1.5rem;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#check-btn {
+  font-size: 1.7rem;
+  padding: 0.4rem;
+  margin: 0.8rem 0;
+  border-radius: 10px;
+  border: none;
+}
+
+.error-msg {
+  font-size: 1.5rem;
+  text-align: center;
+}
+table {
+  padding: 1rem 0;
+}
+table caption {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+table tr th {
+  border: 1px solid white;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+table tr td {
+  padding: 0.5rem;
+  border: 1px solid white;
+  font-size: 1.2rem;
+  font-weight: bold;
 }

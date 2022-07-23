@@ -8,6 +8,49 @@
     <title>Cash Register App</title>
   </head>
   <body>
+    <div class="container">
+      <h1 class="heading">Cash Register Manager</h1>
+      <p class="discription">
+        Enter the bill amount and cash give by the customer and know minimum
+        number of notes to return
+      </p>
+      <div class="input">
+        <label for="bill-amount">BILL Amount</label>
+        <input type="text" id="bill-amount" />
+      </div>
+      <div class="input">
+        <label for="cash-give">Cash Given:</label>
+        <input id="cash-give" type="text" />
+      </div>
+
+      <button id="check-btn">Check</button>
+      <p class="error-msg"></p>
+      <table>
+        <caption>
+          Return Change
+        </caption>
+        <tr class="row">
+          <th>No of Notes</th>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+        </tr>
+        <tr class="row">
+          <th>Note</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
