@@ -8,6 +8,11 @@ body {
   justify-content: center;
   color: #fff;
   background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  align-items: center;
 }
 .container {
   display: flex;
@@ -20,6 +25,9 @@ body {
   height: auto;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  
+  border: 1px solid red;
+
 }
 .heading {
   text-align: center;
@@ -94,7 +102,7 @@ footer {
   padding: 0.4rem 0;
   bottom: 0;
   left: 0;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   text-align: center;
   height: 4rem;
@@ -121,6 +129,6 @@ footer p {
 @media screen and (max-width: 425px) {
   .container {
     width: 100%;
-    margin: 4px 4px;
+  
   }
 }
