@@ -26,7 +26,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 .heading {
@@ -129,6 +129,26 @@ footer p {
 @media screen and (max-width: 425px) {
   .container {
     width: 100%;
-  
+    margin-top: 0;
   }
+  .heading {
+    font-size: 1.6rem;
+  }
+  .discription{
+    font-size: 1.3rem;
+  }
+  #check-btn{
+    font-size: 1.2rem;
+    padding: 0.4rem;
+  }
+  table {
+    padding: 0;
+    /* border: 1px solid red; */
+
+  }
+  table caption {
+    font-size: 1.4rem;
+  }
+
+
 }
