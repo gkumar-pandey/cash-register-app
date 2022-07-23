@@ -7,6 +7,7 @@ body {
   display: flex;
   justify-content: center;
   color: #fff;
+  background-color: #eee;
 }
 .container {
   display: flex;
@@ -23,10 +24,13 @@ body {
 .heading {
   text-align: center;
   padding: 1.4rem;
+  font-size: 2.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .discription {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  font-family: sans-serif;
   padding: 1rem;
 }
 .input {
@@ -35,7 +39,8 @@ body {
   flex-direction: column;
 }
 .input label {
-  font-size: 1.4rem;
+  font-family: sans-serif, "Courier New", Courier, monospace;
+  font-size: 1.7rem;
   padding: 0.5rem 0;
 }
 .input input {
@@ -55,6 +60,7 @@ body {
 .error-msg {
   font-size: 1.5rem;
   text-align: center;
+  font-family: sans-serif;
 }
 table {
   padding: 1rem 0;
@@ -62,6 +68,7 @@ table {
 table caption {
   font-size: 1.8rem;
   padding: 1rem 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 table tr th {
@@ -74,4 +81,39 @@ table tr td {
   border: 1px solid white;
   font-size: 1.2rem;
   font-weight: bold;
+}
+footer {
+  /* border: 1px solid red; */
+  padding: 0.4rem 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 4rem;
+  background-color: #003865;
+}
+footer p {
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.links a {
+  text-decoration: none;
+  color: #fff;
+}
+.links i {
+  font-size: 2rem;
+  padding: 0 0.8rem;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+    margin: 4px 4px;
+  }
 }
