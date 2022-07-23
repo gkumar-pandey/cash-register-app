@@ -48,11 +48,18 @@ body {
   padding: 5px;
   border-radius: 8px;
 }
-
+#check-btn:hover {
+  transform: scale(102%);
+}
 #check-btn {
-  font-size: 1.7rem;
-  padding: 0.4rem;
-  margin: 0.8rem 0;
+  font-size: 1.9rem;
+  width: 98%;
+  background-color: #80bef1;
+  color: #022541;
+  font-weight: bold;
+  margin:0.8rem auto;
+  padding: 0.6rem;
+   
   border-radius: 10px;
   border: none;
 }
