@@ -26,7 +26,6 @@ body {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   
-  /* border: 1px solid red; */
 
 }
 .heading {
@@ -98,11 +97,9 @@ table tr td {
   font-weight: bold;
 }
 footer {
-  /* border: 1px solid red; */
   padding: 0.4rem 0;
   bottom: 0;
   left: 0;
-  /* position: absolute; */
   width: 100%;
   text-align: center;
   height: 4rem;
@@ -143,12 +140,18 @@ footer p {
   }
   table {
     padding: 0;
-    /* border: 1px solid red; */
 
   }
   table caption {
     font-size: 1.4rem;
   }
-
+  table tr th{
+    font-size: 1rem;
+    padding: 5px;
+  }
+  table tr td{
+    font-size: 1rem;
+    font-weight: normal;
+  }
 
 }
