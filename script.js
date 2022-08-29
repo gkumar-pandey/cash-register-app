@@ -6,6 +6,8 @@ const noOfNotes = document.querySelectorAll(".no-of-notes");
 
 const showMessage = (msg) => {
   message.style.display = "block";
+  message.style.padding = "1rem";
+  message.style.backgroundColor = "green";
   message.innerText = msg;
 };
 const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
@@ -25,7 +27,9 @@ checkBtn.addEventListener("click", () => {
   const bill = Number(billAmount.value);
 
   if (bill > 0) {
-    if (cash >= bill) {
+    if (cash == bill) {
+      showMessage("No amount shoud be return 😄");
+    } else if (cash > bill) {
       const amountToBeReturn = cash - bill;
       calculateChange(amountToBeReturn);
     } else {
