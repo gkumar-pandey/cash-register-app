@@ -28,7 +28,7 @@ checkBtn.addEventListener("click", () => {
 
   if (bill > 0) {
     if (cash == bill) {
-      showMessage("No amount shoud be return 😄");
+      showMessage("No amount should be return 😄");
     } else if (cash > bill) {
       const amountToBeReturn = cash - bill;
       calculateChange(amountToBeReturn);
